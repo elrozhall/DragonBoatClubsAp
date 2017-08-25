@@ -1,0 +1,6 @@
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.csprojResolveAssemblyReference.cache
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\bin\Debug\DragonBoatClubApp.exe.config
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\bin\Debug\DragonBoatClubApp.exe
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\bin\Debug\DragonBoatClubApp.pdb
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.exe
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.pdb
