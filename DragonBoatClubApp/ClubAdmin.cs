@@ -17,8 +17,8 @@ namespace DragonBoatClubApp
 			{
 				ClubName = clubName,
 				ClubWebsite = clubWebsite,
-				ClubDescription = clubDescription,
-				ClubCost = clubCost
+				ClubCost = clubCost,
+				ClubDescription = clubDescription
 			};
 
 			DBClubs.Add(dbclub);
