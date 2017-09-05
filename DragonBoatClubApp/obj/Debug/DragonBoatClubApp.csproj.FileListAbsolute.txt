@@ -4,3 +4,14 @@ C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp
 C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\bin\Debug\DragonBoatClubApp.pdb
 C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.exe
 C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\DragonBoatClubApp\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.pdb
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.csprojResolveAssemblyReference.cache
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.exe
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.pdb
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\bin\Debug\DragonBoatClubApp.exe.config
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\bin\Debug\DragonBoatClubApp.exe
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\bin\Debug\DragonBoatClubApp.pdb
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\obj\Debug\DragonBoatClubApp.csproj.CoreCompileInputs.cache
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\bin\Debug\EntityFramework.dll
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\bin\Debug\EntityFramework.xml
+C:\Users\Costco Admin\Documents\Visual Studio 2017\Projects\C#\Github3charm\DragonBoatClubApp\bin\Debug\EntityFramework.SqlServer.xml

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,13 +40,16 @@ namespace DragonBoatClubApp
 		/// first property is to assign the Club a unique ID;
 		/// </summary>
 
-
+		[Key]
 		public int ClubId { get; private set; }
 
 		public DateTime DateAdded { get; private set; }
 
 		public string ClubName { get; set; }
-	
+
+		[Required]
+		[StringLength(50, ErrorMessage ="Website Address should be 50 characters or less")]
+
 		public string ClubWebsite { get; set; }
 
 		public string ClubDescription { get; set; }
@@ -69,8 +73,11 @@ namespace DragonBoatClubApp
 
 		public string ContactTitle { get; set; }
 
+		[Phone]
 		public string ContactPhone { get; set; }
 
+		[StringLength(50, ErrorMessage = "Email Address should be 50 characters or less")]
+		[EmailAddress]
 		public string ContactEmail { get; set; }
 
 		/// <summary>

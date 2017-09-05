@@ -8,8 +8,7 @@ namespace DragonBoatClubApp
 {
 	public static class ClubAdmin
 	{
-		private static List<DBClub> DBClubs = new List<DBClub>();
-
+		private static DBClubNetworkModel datbas = new DBClubNetworkModel();
 
 		public static DBClub AddClub(string clubName, string clubWebsite, CostTypes clubCost, string clubDescription = "Dragon Boat Club that is open for all")
 		{
@@ -19,10 +18,11 @@ namespace DragonBoatClubApp
 				ClubWebsite = clubWebsite,
 				ClubCost = clubCost,
 				ClubDescription = clubDescription
+
 			};
 
-			DBClubs.Add(dbclub);
-
+			datbas.DBClubs.Add(dbclub);
+			datbas.SaveChanges();
 			return dbclub;
 		}
 
