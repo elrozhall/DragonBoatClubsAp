@@ -1,10 +1,6 @@
 ﻿
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DragonBoatClubApp
 {
@@ -19,6 +15,7 @@ namespace DragonBoatClubApp
 				Console.WriteLine("0. Exit");
 				Console.WriteLine("1. Add a new club.");
 				Console.WriteLine("2. Edit an existing club");
+				Console.WriteLine("3. Print all Dragon Boat Clubs");
 				Console.Write("Please select an option (choose a number)");
 				var option = Console.ReadLine();
 				switch (option)
@@ -59,12 +56,29 @@ namespace DragonBoatClubApp
 					default:
 						break;
 
+					case "3":
+						PrintAllDbClubs();
+						break;
+
+
 
 				}
 
 			}
 		}
 
-		
+		private static void PrintAllDbClubs ()
+		{
+			Console.Write("Club Website: ");
+			var clubWebsite = Console.ReadLine();
+			var alldBClubs = ClubAdmin.GetAllAccountsByClubWebsite(clubWebsite);
+
+			foreach (var dbClub in alldBClubs)
+			{
+				Console.WriteLine($" Club ID: {dbClub.ClubId}, Club Name: {dbClub.ClubName}, Club Website: {dbClub.ClubWebsite}, Date Created: {dbClub.DateAdded:f}");
+			}
+		}
+
+
 	}
 }
