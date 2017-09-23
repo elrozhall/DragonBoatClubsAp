@@ -21,7 +21,7 @@ namespace DragonBoatClubApp
 		// on configuring and using a Code First model, see http://go.microsoft.com/fwlink/?LinkId=390109.
 
 		 public virtual DbSet<DBClub> DBClubs { get; set; }
-		 public virtual DbSet<DBClubLocation> DBClubLocations { get; set; }
+	
 	}
 
 	//public class MyEntity

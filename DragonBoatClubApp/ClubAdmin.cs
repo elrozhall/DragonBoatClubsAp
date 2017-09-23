@@ -10,15 +10,23 @@ namespace DragonBoatClubApp
 	{
 		private static DBClubNetworkModel datbas = new DBClubNetworkModel();
 
-		public static DBClub AddClub(string clubName, string clubWebsite, CostTypes clubCost, string clubDescription = "Dragon Boat Club that is open for all")
+		public static DBClub AddClub(string clubName, string clubWebsite, CostTypes clubCost, string addressStreet, string addressCity, string addressState, string addressCountry, string addressZip, string contactName, string contactTitle, string contactPhone, string contactEmail, string clubDescription = "Dragon Boat Club that is open for all")
 		{
 			var dbClub = new DBClub
 			{
 				ClubName = clubName,
 				ClubWebsite = clubWebsite,
 				ClubCost = clubCost,
+				AddressStreet = addressStreet,
+				AddressCity = addressCity,
+				AddressCountry = addressCountry,
+				AddressState = addressState,
+				AddressZip = addressZip,
+				ContactName = contactName,
+				ContactTitle = contactTitle,
+				ContactPhone = contactPhone,
+				ContactEmail = contactEmail,
 				ClubDescription = clubDescription
-
 			};
 
 			datbas.DBClubs.Add(dbClub);

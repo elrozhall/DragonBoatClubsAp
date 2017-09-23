@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace DragonBoatClubApp
 {
-	public class DBClubLocation
+	public class DBClubPractice
 	{
 		[Key]
-		public int ClubLocationId { get; set; }
+		public int ClubPracticeId { get; set; }
 
 		public enum SkillLevels
 		{
@@ -22,28 +22,28 @@ namespace DragonBoatClubApp
 		/// <summary>
 		/// Address info for the Club
 		/// </summary>
-		public string AddressZip { get; set; }
+		//public string AddressZip { get; set; }
 
-		public string AddressCity { get; set; }
+		//public string AddressCity { get; set; }
 
-		public string AddressState { get; set; }
+		//public string AddressState { get; set; }
 
-		public string AddressCountry { get; set; }
+		//public string AddressCountry { get; set; }
 
 		/// <summary>
 		/// The following c
 
 
-		public string ContactName { get; set; }
+		//public string ContactName { get; set; }
 
-		public string ContactTitle { get; set; }
+		//public string ContactTitle { get; set; }
 
-		[Phone]
-		public string ContactPhone { get; set; }
+		//[Phone]
+		//public string ContactPhone { get; set; }
 
-		[StringLength(50, ErrorMessage = "Email Address should be 50 characters or less")]
-		[EmailAddress]
-		public string ContactEmail { get; set; }
+		//[StringLength(50, ErrorMessage = "Email Address should be 50 characters or less")]
+		//[EmailAddress]
+		//public string ContactEmail { get; set; }
 
 		/// <summary>
 		/// The following lines are all about the Practices
@@ -57,7 +57,7 @@ namespace DragonBoatClubApp
 		[ForeignKey("DBClub")]
 		public int ClubId { get; set; }
 
-		public virtual DBClub DBLocClub { get; set; }
+		public virtual DBClub DBPracticeClub { get; set; }
 
 	}
 }

@@ -54,7 +54,7 @@
     <Compile Include="ClubAdmin.cs" />
     <Compile Include="DBClubNetworkModel.cs" />
     <Compile Include="DBClub.cs" />
-    <Compile Include="DBClubLocation.cs" />
+    <Compile Include="DBClubPractice.cs" />
     <Compile Include="ForeignKeyAttribute.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

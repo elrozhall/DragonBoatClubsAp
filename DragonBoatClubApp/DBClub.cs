@@ -57,28 +57,30 @@ namespace DragonBoatClubApp
 		/// <summary>
 		/// Address info for the Club
 		/// </summary>
-		//public string AddressZip { get; set; }
+		public string AddressStreet { get; set; }
 
-		//public string AddressCity { get; set; }
+		public string AddressCity { get; set; }
 
-		//public string AddressState { get; set; } 
+		public string AddressState { get; set; } 
 
-		//public string AddressCountry { get; set; }
+		public string AddressCountry { get; set; }
+
+		public string AddressZip { get; set; }
 
 		/// <summary>
 		/// The following contact info will be combined into a METHOD so that up to 3 contacts can be added.
 		/// </summary>
-	
-		//public string ContactName { get; set; }
 
-		//public string ContactTitle { get; set; }
+		public string ContactName { get; set; }
 
-		//[Phone]
-		//public string ContactPhone { get; set; }
+		public string ContactTitle { get; set; }
 
-		//[StringLength(50, ErrorMessage = "Email Address should be 50 characters or less")]
-		//[EmailAddress]
-		//public string ContactEmail { get; set; }
+		[Phone]
+		public string ContactPhone { get; set; }
+
+		[StringLength(50, ErrorMessage = "Email Address should be 50 characters or less")]
+		[EmailAddress]
+		public string ContactEmail { get; set; }
 
 		/// <summary>
 		/// Cost May be choices (enumerations)
@@ -92,11 +94,15 @@ namespace DragonBoatClubApp
 
 		//public TimeSpan PracticeTimes { get; set; }
 
-		public SkillLevels SkillLevel { get; set; }
+		//public SkillLevels SkillLevel { get; set; }
 
 		//public decimal Balance { get; private set; }
 
-		public virtual ICollection<DBClubLocation> DBClubLocations { get; set; }
+
+
+
+
+		public virtual ICollection<DBClubPractice> DBClubPractices { get; set; }
 
 
 		#endregion //Properties
@@ -116,6 +122,8 @@ namespace DragonBoatClubApp
 
 
 		#region Methods
+
+		 
 
 
 		#endregion //Methods
